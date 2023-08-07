@@ -4,6 +4,12 @@
 ### Architecture
 <img width="973" alt="스크린샷 2023-08-07 오전 10 34 44" src="https://github.com/hooniegit/fly.io-deploy-demo/assets/130134750/631e3ad4-88bf-487c-9715-0b3383dacbee">
 
+### 📝 전제 조건
+1. Jenkins 서버가 설치되어 있어야 합니다.
+2. Fly.io 토큰이 Jenkins에 등록되어 있어야 합니다.
+3. Fly CLI가 Jenkins 서버에 설치되어 있어야 합니다.
+4. Spring 어플리케이션 소스 코드가 Jenkins 서버에 접근 가능한 위치에 있어야 합니다.
+5. Docker가 Jenkins 서버에 설치되어 있어야 합니다. ***
 
 # DEV
 ### DEV Environment
@@ -22,16 +28,32 @@ $ gradle test
 # 패키징 명령어
 $ gradle bootJar
 
+# 실행 명령어
+$ java -jar build/libs/<jar 파일 이름>
+
 # fly 명령어
-$ flyctl launch
+$ fly launch
+Creating app in /Users/kimdohoon/git/hooniegit/fly.io-deploy-demo
+Scanning source code
+Could not find a Dockerfile, nor detect a runtime or framework from source code. Continuing with a blank app.
+? Choose an app name (leave blank to generate one): titanic
+automatically selected personal organization: 김도훈(Dohoon Kim)
+Some regions require a paid plan (bom, fra, maa).
+See https://fly.io/plans to set up a plan.
+
+? Choose a region for deployment: Tokyo, Japan (nrt)
+App will use 'nrt' region as primary
+
+Created app 'titanic' in organization 'personal'
+Admin URL: https://fly.io/apps/titanic
+Hostname: titanic.fly.dev
+Wrote config file fly.toml
 ```
 
 ### Port 수정
-
-
 ``` bash
 [http_service]
-  internal_port = 9876
+  internal_port = 9876 # PORT 수정 - 충돌 방지
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
@@ -40,13 +62,6 @@ $ flyctl launch
 ```
 
 # Deploy
-### 📝 전제 조건
-1. Jenkins 서버가 설치되어 있어야 합니다.
-2. Fly.io 토큰이 Jenkins에 등록되어 있어야 합니다.
-3. Fly CLI가 Jenkins 서버에 설치되어 있어야 합니다.
-4. Spring 어플리케이션 소스 코드가 Jenkins 서버에 접근 가능한 위치에 있어야 합니다.
-5. Docker가 Jenkins 서버에 설치되어 있어야 합니다. ***
-
 ### 🛠️ 단계 1: 새로운 파이프라인 생성
 1. Jenkins 대시보드에 로그인합니다.
 2. 좌측 메뉴에서 "새로운 Item 만들기"를 클릭합니다.
