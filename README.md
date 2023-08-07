@@ -1,6 +1,32 @@
 # fly.io-deploy-demo
 : 간단한 spring project를 fly.io로 배포하는 파이프라인을 포함하고 있습니다 :)
 
+### Architecture
+<img width="973" alt="스크린샷 2023-08-07 오전 10 34 44" src="https://github.com/hooniegit/fly.io-deploy-demo/assets/130134750/631e3ad4-88bf-487c-9715-0b3383dacbee">
+
+
+# DEV
+### DEV Environment
+- java 17
+- gradle 8.2.1
+- springbooy 3.1.2
+
+### DEV commands
+``` bash
+# 빌드 명령어
+$ gradle build
+
+# 테스트 명령어
+$ gradle test
+
+# 패키징 명령어
+$ gradle bootJar
+
+# 배포 명령어
+$ flyctl deploy --image <이미지명>
+```
+
+# Deploy
 ### 📝 전제 조건
 1. Jenkins 서버가 설치되어 있어야 합니다.
 2. Fly.io 토큰이 Jenkins에 등록되어 있어야 합니다.
