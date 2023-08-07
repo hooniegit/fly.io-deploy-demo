@@ -7,7 +7,7 @@ app = "titanic"
 primary_region = "nrt"
 
 [build]
-  dockerfile = Dockerfile
+  dockerfile = "Dockerfile"
 
 [http_service]
   internal_port = 9876
