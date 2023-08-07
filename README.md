@@ -22,8 +22,21 @@ $ gradle test
 # 패키징 명령어
 $ gradle bootJar
 
-# 배포 명령어
-$ flyctl deploy --image <이미지명>
+# fly 명령어
+$ flyctl launch
+```
+
+### Port 수정
+
+
+``` bash
+[http_service]
+  internal_port = 9876
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
 ```
 
 # Deploy
