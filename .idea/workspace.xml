@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b2f78b1-6b3a-4d27-b204-1c2b39181af4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/main/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/kplc/resume/ResumeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/kplc/resume/Resumep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/kplc/resume/ResumepController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/kplc/resume/ResumepRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/kplc/resume/ResumeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/OnlineShopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/customer/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/customer/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/customer/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/product/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/product/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/product/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/java/com/example/online_shop/product/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/resources/templates/customer_register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/main/resources/templates/customerlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_shop/src/test/java/com/example/online_shop/OnlineShopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kplc/resume/ResumeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kplc/resume/Resumep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kplc/resume/ResumepController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kplc/resume/ResumepRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kplc/resume/ResumeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Tcx5PXzQXz3M7ncus4A8ToXbwU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tom&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimdohoon/git/hooniegit/fly.io-deploy-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.fly.io-deploy-demo [build]">
+    <configuration name="fly.io-deploy-demo [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="fly.io-deploy-demo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="resume" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="resume" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmariowebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="dmarioweb.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.dmario24.dmarioweb.DmariowebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResumeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="resume.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kplc.resume.ResumeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.fly.io-deploy-demo [build]" />
+        <item itemvalue="Gradle.fly.io-deploy-demo [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b2f78b1-6b3a-4d27-b204-1c2b39181af4" name="Changes" comment="" />
+      <created>1691355987536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691355987536</updated>
+      <workItem from="1691355988923" duration="1490000" />
+      <workItem from="1691359503409" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

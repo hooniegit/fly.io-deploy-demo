@@ -1,0 +1,22 @@
+# fly.toml app configuration file generated for tom-resume on 2023-08-03T15:41:15+09:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "tom-resume"
+primary_region = "nrt"
+
+[build]
+  dockerfile = "Dockerfile"
+
+# https://fly.io/docs/reference/configuration/#specify-docker-build-arguments
+[build.args]
+  VER="0.1.1"
+
+[http_service]
+  internal_port = 8765
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
