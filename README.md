@@ -1,11 +1,12 @@
 # fly.io-deploy-demo
+: 간단한 spring project를 fly.io로 배포하는 파이프라인을 포함하고 있습니다 :)
 
 ### 📝 전제 조건
 1. Jenkins 서버가 설치되어 있어야 합니다.
 2. Fly.io 토큰이 Jenkins에 등록되어 있어야 합니다.
 3. Fly CLI가 Jenkins 서버에 설치되어 있어야 합니다.
 4. Spring 어플리케이션 소스 코드가 Jenkins 서버에 접근 가능한 위치에 있어야 합니다.
-5. Docker가 Jenkins 서버에 설치되어 있어야 합니다.
+5. Docker가 Jenkins 서버에 설치되어 있어야 합니다. ***
 
 ### 🛠️ 단계 1: 새로운 파이프라인 생성
 1. Jenkins 대시보드에 로그인합니다.
